@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ร้านอาหารอร่อยเด็ด</title>
+    <style>
+        body {
+            font-family: "Kanit", sans-serif;
+            margin: 0;
+            background-color: #fff8f0;
+            color: #333;
+        }
+        header {
+            background-color: #d35400;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 3px;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+        }
+        .hero h2 {
+            font-size: 3em;
+            background-color: rgba(211, 84, 0, 0.7);
+            padding: 20px 40px;
+            border-radius: 10px;
+        }
+        .menu {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .menu h3 {
+            font-size: 2em;
+            color: #d35400;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .menu-item {
+            display: flex;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+        }
+        .menu-item img {
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+        .menu-item div {
+            flex: 1;
+        }
+        .menu-item h4 {
+            margin: 0 0 10px 0;
+        }
+        .menu-item p {
+            margin: 0;
+            color: #666;
+        }
+        footer {
+            background-color: #d35400;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ร้านอาหารอร่อยเด็ด</h1>
+        <nav>
+            <a href="#">หน้าแรก</a>
+            <a href="#">เมนู</a>
+            <a href="#">เกี่ยวกับเรา</a>
+            <a href="#">ติดต่อเรา</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>อร่อยทุกคำ ที่คุณต้องลอง</h2>
+    </section>
+
+    <section class="menu">
+        <h3>เมนูแนะนำ</h3>
+        <div class="menu-item">
+            <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=150&q=80" alt="ส้มตำ" />
+            <div>
+                <h4>ส้มตำไทย</h4>
+                <p>ตำไทยรสจัดจ้าน หวาน เปรี้ยว เค็ม ครบรส</p>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=150&q=80" alt="ต้มยำกุ้ง" />
+            <div>
+                <h4>ต้มยำกุ้ง</h4>
+                <p>ต้มยำน้ำใสรสแซ่บ กุ้งสดตัวโต พร้อมสมุนไพรไทย</p>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="https://images.unsplash.com/photo-1543352634-cf5d58a1d2ee?auto=format&fit=crop&w=150&q=80" alt="ข้าวผัดปู" />
+            <div>
+                <h4>ข้าวผัดปู</h4>
+                <p>ข้าวผัดหอมๆ ปูสดๆ เสิร์ฟร้อนๆ</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>ติดต่อเรา: 012-345-6789 | ที่อยู่: 123 ถนนสุขใจ กรุงเทพฯ</p>
+        <p>© 2025 ร้านอาหารอร่อยเด็ด. สงวนลิขสิทธิ์</p>
+    </footer>
+</body>
+</html>
